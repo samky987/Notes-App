@@ -1,7 +1,7 @@
-- I added a postman collection to make it easy to review the functionality of the application.
+I added a postman collection to make it easy to review the functionality of the application.
 
-- The design of the program follows the traditional design of a spring book application, with controller, service, repository layer. Another design that can be used is using Spring Data Rest which exposes Crud operations as Restful apis and provide support for HATEOAS out of the box.
-- This approach can reduce the boilerplate for small applications but the disadvantage is that it couples the Controller layer and Repository layer together, that’s why I went with the traditional approach.   
+The design of the program follows the traditional design of a spring book application, with controller, service, repository layer. Another design that can be used is using Spring Data Rest which exposes Crud operations as Restful apis and provide support for HATEOAS out of the box.
+This approach can reduce the boilerplate for small applications but the disadvantage is that it couples the Controller layer and Repository layer together, that’s why I went with the traditional approach.   
 
 What I will do if I have more time?
 1- Create a dedicated Controller, Service and an Entity for Session management(login,logout), and separate it from the User controller. 
@@ -10,6 +10,7 @@ What I will do if I have more time?
 4- Add logging
 
 Instructions:
+
 1- Call “New User” request in the postman collection (http://localhost:8080/public/user/) to create a new user
 ![image](https://github.com/samky987/Notes-App/assets/63223538/e41f658c-9fd7-4dca-b00f-1ed639eacd66)
 
