@@ -4,6 +4,7 @@ The design of the program follows the traditional design of a spring book applic
 This approach can reduce the boilerplate for small applications but the disadvantage is that it couples the Controller layer and Repository layer together, that’s why I went with the traditional approach.   
 
 What I will do if I have more time?
+
 1- Create a dedicated Controller, Service and an Entity for Session management(login,logout), and separate it from the User controller. 
 
 2- Exception handling.
