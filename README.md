@@ -5,8 +5,11 @@ This approach can reduce the boilerplate for small applications but the disadvan
 
 What I will do if I have more time?
 1- Create a dedicated Controller, Service and an Entity for Session management(login,logout), and separate it from the User controller. 
+
 2- Exception handling.
+
 3- Sliced tests using Mockito and Junit
+
 4- Add logging
 
 Instructions:
