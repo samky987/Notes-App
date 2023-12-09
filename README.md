@@ -5,7 +5,7 @@ This approach can reduce the boilerplate for small applications but the disadvan
 
 What I will do if I have more time?
 
-1- Create a dedicated Controller, Service and an Entity for Session management(login,logout), and separate it from the User controller. 
+1- Create a dedicated Controller, Service and an Entity for Session management(login,logout), and separate it from the User controller which would be handling users(adding, deleting users). 
 
 2- Exception handling.
 
